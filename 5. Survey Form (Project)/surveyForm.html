@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+  </head>
+  <body>
+    <h1 id="title"><em>Jalen's Survey</em></h1>
+
+    <p id="description">Thank you for taking the time to help me improve</p>
+
+    <form  id="survey-form" class="" action="index.html" method="post">
+<label id="name-label">Name<input id="name" type="text" name="" value="" required placeholder="Enter your name"/></label>
+<label id="email-label">Email<input id="email" type="email" name="" value="" required placeholder="Enter your email"/></label>
+<label id="number-label">Age<input id="number" type="number" name="" value="" min="10" max="30" placeholder="Age"/></label>
+
+
+<label> What is your Current Role
+   <select id="dropdown" name="">
+  <option value="">(which are you)</option>
+            <option value="1">Student</option>
+            <option value="2">Working man/woman</option>
+            <option value="3">Freelancer</option>
+            <option value="4">Entrepreneur</option>
+            <option value="5">Other</option>
+</select>
+</label>
+
+
+
+    <div class="radio">
+      <label> Which programming language are you most comfortable with?
+        <br>
+
+    <input  type="radio" name="programming" value="java"> Java <br>
+    <input  type="radio" name="programming" value="python"> Python <br>
+    <input  type="radio" name="programming" value="C++"> C++
+    </label>
+        </div>
+<br>
+      <label class="radio">
+            Which programming languages are you currently using in your projects? (Check all that apply)
+            <br><input type="checkbox" name="languages" value="java"> Java <br>
+            <input type="checkbox" name="languages" value="python"> Python <br>
+            <input type="checkbox" name="languages" value="C++"> C++
+        </label>
+
+        <br>
+        <br>
+
+<label> Leave any advice below
+<textarea name="name" rows="8" cols="60"></textarea>
+</label>
+
+<button id="submit" type="submit" name="button">Submit</button>
+    </form>
+
+  </body>
+</html>
